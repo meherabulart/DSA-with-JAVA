@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class MisingNumber {
     public static void print(int arr[]){
         for(int i =0;i<arr.length;i++){
@@ -7,8 +6,7 @@ public class MisingNumber {
         }
          System.out.println();
     }
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of an array: ");
         int n=sc.nextInt();
@@ -30,12 +28,5 @@ public class MisingNumber {
         int totalSum=(n*(n+1)/2);
         int misnum=totalSum-sum;
         System.out.println("Mising Element is :"+misnum);
-
-
-
-       
-        
     }
-    
-    
 }

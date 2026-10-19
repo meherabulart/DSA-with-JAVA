@@ -26,10 +26,11 @@ public class searcharray {
         boolean found =false;
 
         for(int i=0; i<arr.length;i++){ 
-            if (target==arr[i]) { System.out.println("Item found at position "+(i+1));
-            found=true;
-            break;
-        }
+            if (target==arr[i]) { 
+                    System.out.println("Item found at position "+(i+1));
+                    found=true;
+                    break;
+            }
         }
         if (!found)  System.out.println("Not Present in this array");
     }

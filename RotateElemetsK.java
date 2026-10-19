@@ -6,7 +6,6 @@ public class RotateElemetsK {
         }
          System.out.println();
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of an array: ");
@@ -31,7 +30,6 @@ public class RotateElemetsK {
         reverse(arr, k, n-1);
         System.out.print("The Reverse array Elemnts with 'K' is: ");
         print(arr);
-        
     }
     public static  void reverse(int []arr,int i,int j){
         while(i<j){
