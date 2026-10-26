@@ -14,3 +14,6 @@ public class TwoDimentionalArray {
         System.out.println("Max sum is: "+maxSum);
     }
 }
+public static int main(String[] args){
+    
+}
